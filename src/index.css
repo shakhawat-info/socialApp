@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    
+  .SearchExtend {
+    @apply duration-[4s] w-full;
+  }
+  .formBorder{
+    @apply border-solid border-black border-[1px]
+  }
+}
